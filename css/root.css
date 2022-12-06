@@ -42,7 +42,8 @@ hr {
     text-align: center;
 }
 
-button:hover {
+button:hover,
+i:hover {
     cursor: pointer;
 }
 

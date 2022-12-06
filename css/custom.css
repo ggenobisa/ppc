@@ -45,8 +45,8 @@
 .featured .slick-container {margin-top: 30px;padding: 0 1rem;}
 .featured .slick-container .slick-t {position: relative; overflow: hidden;}
 .featured .slick-container .slick-t img {width: 305px;}
-.featured .slick-container .slick-t .slick-prev {left: 0;z-index: 1;background-color: var(--primary);height: 427px;top: 0;transform: unset;width: 30px;opacity: 25%;}
-.featured .slick-container .slick-t .slick-next {right: 5px;z-index: 1;background-color: var(--primary);height: 427px;top: 0;transform: unset;width: 30px;opacity: 25%;}
+.featured .slick-container .slick-t .slick-prev {left: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
+.featured .slick-container .slick-t .slick-next {right: 5px;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
 
 
 .genting-live .content {max-width: 1890px;}
@@ -64,8 +64,8 @@
 .most-played-games .slick-container {margin-top: 30px;padding: 0 1rem; margin-bottom: 50px;}
 .most-played-games .slick-container .slick-t {position: relative; overflow: hidden;}
 .most-played-games .slick-container .slick-t img {width: 305px;}
-.most-played-games .slick-container .slick-t .slick-prev {left: 0;z-index: 1;background-color: var(--primary);height: 427px;top: 0;transform: unset;width: 30px;opacity: 25%;}
-.most-played-games .slick-container .slick-t .slick-next {right: 5px;z-index: 1;background-color: var(--primary);height: 427px;top: 0;transform: unset;width: 30px;opacity: 25%;}
+.most-played-games .slick-container .slick-t .slick-prev {left: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
+.most-played-games .slick-container .slick-t .slick-next {right: 5px;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
 
 
 .genting-casino .content {max-width: 1600px;}
