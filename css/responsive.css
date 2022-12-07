@@ -19,8 +19,7 @@
     .hero .content .hero-btn .beam-content p {font-size: 11px; line-height: 15px;}
 
     .marquee {height: 45px;}
-    .marquee .track {padding: 0.5rem 0 0 0;}
-    .marquee .track .optimized-wrapper {margin-right: 80px;}
+    .marquee .track .optimized-wrapper {margin-right: 40px;}
     .marquee .track img {height: 25px; width: 100%;}
 
     .howtoplay .content h2 {font-size: 32px;}
@@ -29,16 +28,8 @@
 
     .featured .content h2 {font-size: 36px;}
     .featured .content h3 {font-size: 20px;}
-    /* .featured .slick-container .slick-t img {width: 209px;} */
-
-    .genting-live .slick-container .slick-casino {position: relative; overflow: hidden;}
-    .genting-live .slick-container .slick-casino img {width: 100%;}
-    .genting-live .slick-container .slick-casino .slick-prev {left: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
-    .genting-live .slick-container .slick-casino .slick-next {right: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
-    .genting-live .content-two {padding: 1rem;}
 
     .most-played-games .content h3 {font-size: 20px;}
-    /* .most-played-games .slick-container .slick-t img {width: 209px;} */
 
     .genting-live .content h3 {font-size: 20px;}
 
@@ -49,7 +40,7 @@
     .genting-casino .genting-container img {width: 35%;}
     .genting-casino .content button {width: 170px; font-size: 20px; height: 45px;}
 
-    .footer p {font-size: 9px; line-height: 15px;}
+    .footer p {font-size: 11px; line-height: 15px;}
         
 }/****940px****/
 
@@ -61,12 +52,9 @@
     .hero .offer-text {top: 30%;}
     .hero .offer-text button {margin-top: 20px;}
 
-    /* .featured .slick-container .slick-t img,
-    .most-played-games .slick-container .slick-t img {width: 475px;} */
-
-    /* .genting-live .slick-container .slick-casino img {width: 570px;} */
+    .marquee .track {padding: 0.7rem 0 0 0;}
 
     .genting-casino .genting-container {grid-template-columns: 25% 25% 25% 25%;}
-    .genting-casino .genting-container img {width: 50%;}
+    .genting-casino .genting-container img {width: 50%; margin-bottom: 20px;}
     .genting-casino .genting-container p {margin-top: 0;}
 }/****940px LANDSCAPE****/

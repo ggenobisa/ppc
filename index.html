@@ -148,8 +148,8 @@
             <hr>
 
             <div class="slick-container">
-                <!-- <div class="slick-t" data-slick='{"slidesToShow": 6, "slidesToScroll": 6}'> -->
-                <div class="slick-t">
+                <div class="slick-t" data-slick='{"slidesToShow": 5.5, "slidesToScroll": 6}'>
+                <!-- <div class="slick-t"> -->
                     <div><img src="./img/genting-picks/bonanza.jpg" alt="Big Bass Bonanza"></div>
                     <div><img src="./img/genting-picks/book-of-dead.jpg" alt="Book of Dead"></div>
                     <div><img src="./img/genting-picks/one-blackjack.jpg" alt="One Blackjack"></div>
@@ -180,18 +180,18 @@
                     <div class="col col-4"><img src="./img/genting-live/resorts-world.png" alt="Resort World"></div>
                     <div class="col col-5"><img src="./img/genting-live/manchester.png" alt="Manchester"></div>
                 </div>
-    
-                <div class="slick-container hide-desktop">
-                    <div class="slick-casino">
-                        <div><img src="./img/genting-live/chinatown.png" alt="Chinatown"></div>
-                        <div><img src="./img/genting-live/kensington.png" alt="Kensington"></div>
-                        <div><img src="./img/genting-live/palm-beach.png" alt="Palm Beach"></div>
-                        <div><img src="./img/genting-live/resorts-world.png" alt="Resort World"></div>
-                        <div><img src="./img/genting-live/manchester.png" alt="Manchester"></div>
-                    </div>
+            </div>
+
+            <div class="slick-container hide-desktop">
+                <div class="slick-t" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
+                    <div class="col col-1"><img src="./img/genting-live/chinatown.png" alt="Chinatown"></div>
+                    <div class="col col-2"><img src="./img/genting-live/kensington.png" alt="Kensington"></div>
+                    <div class="col col-3"><img src="./img/genting-live/palm-beach.png" alt="Palm Beach"></div>
+                    <div class="col col-4"><img src="./img/genting-live/resorts-world.png" alt="Resort World"></div>
+                    <div class="col col-5"><img src="./img/genting-live/manchester.png" alt="Manchester"></div>
                 </div>
             </div>
-        </div>
+        </div><!--content-->
     </div><!--genting live-->
         
     </div><!--most played games-->
@@ -202,7 +202,7 @@
             <hr>
 
             <div class="slick-container">
-                <div class="slick-tt">
+                <div class="slick-t" data-slick='{"slidesToShow": 5.5, "slidesToScroll": 6}'>
                     <div><img src="./img/most-played-games/bonanza.jpg" alt="Big Bass Bonanza"></div>
                     <div><img src="./img/most-played-games/book-of-dead.jpg" alt="Book of Dead"></div>
                     <div><img src="./img/most-played-games/champions-of-mithrune.jpg" alt="Champions of Mithrune"></div>
@@ -236,22 +236,20 @@
             <div class="genting-container">
                 <div class="col col-1">
                     <img src="./img/icons/global.png" alt="Global">
+                    <p>We are a Global Entertainment and Hospitality Brand</p>
                 </div>
                 <div class="col col-2">
                     <img src="./img/icons/50-years.png" alt="50 years">
+                    <p>Over 50-Years Experience At Your Fingertips</p>
                 </div>
                 <div class="col col-3">
                     <img src="./img/icons/premium-casino.png" alt="Premium Casino">
+                    <p>Premium Casino Available On Any Device</p>
                 </div>
                 <div class="col col-4">
                     <img src="./img/icons/safe-and-secure.png" alt="Safe and Secure Gaming">
+                    <p>Safe and Secure Gaming</p>
                 </div>
-            </div>
-            <div class="genting-content">
-                <div class="col"><p>We are a Global Entertainment and Hospitality Brand</p></div>
-                <div class="col"><p>Over 50-Years Experience At Your Fingertips</p></div>
-                <div class="col"><p>Premium Casino Available On Any Device</p></div>
-                <div class="col"><p>Safe and Secure Gaming</p></div>
             </div>
             <button>JOIN NOW</button>
         </div>
@@ -266,14 +264,15 @@
         
     <script src="https://kit.fontawesome.com/fc91043530.js" crossorigin="anonymous"></script>
     
-    <!-- <script type="text/javascript" src="./script/script.js"></script> -->
+    
     <script type="text/javascript" src="./script/slick.min.js"></script>
+    <!-- <script type="text/javascript" src="./script/script.js"></script> -->
 
     <script type="text/javascript">
         $(document).ready(function(){
             $('.slick-t').slick({
-                slidesToShow: 5.5,
-                slidesToScroll: 6,
+                // slidesToShow: 5.5,
+                // slidesToScroll: 6,
                 speed: 300,
                 infinite: false,
                 arrows: true,
@@ -296,74 +295,47 @@
                     breakpoint: 375,
                     settings: {
                         slidesToShow: 1.8,
-                        slidesToScroll: 1,
-                    }
-                    }
-                ]
-            });
-
-            $('.slick-tt').slick({
-                slidesToShow: 5.5,
-                slidesToScroll: 6,
-                speed: 300,
-                infinite: false,
-                arrows: true,
-                responsive: [
-                    {
-                    breakpoint: 940,
-                    settings: {
-                        slidesToShow: 1.8,
-                        slidesToScroll: 1,
-                    }
-                    },
-                    {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1.8,
-                        slidesToScroll: 1,
-                    }
-                    },
-                    {
-                    breakpoint: 375,
-                    settings: {
-                        slidesToShow: 1.8,
-                        slidesToScroll: 1,
-                    }
-                    }
-                ]
-            });
-
-            $('.slick-casino').slick({
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                speed: 300,
-                infinite: false,
-                arrows: true,
-                responsive: [
-                    {
-                    breakpoint: 940,
-                    settings: {
-                        slidesToShow: 1.5,
-                        slidesToScroll: 1,
-                    }
-                    },
-                    {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1.5,
-                        slidesToScroll: 1,
-                    }
-                    },
-                    {
-                    breakpoint: 375,
-                    settings: {
-                        slidesToShow: 1.5,
                         slidesToScroll: 1,
                     }
                     }
                 ]
             });
         });
+
+            
+        // $(window).load(function() {
+
+        //     $('.slick-3').slick({
+        //         slidesToShow: 3,
+        //         slidesToScroll: 3,
+        //         speed: 300,
+        //         infinite: false,
+        //         arrows: true,
+        //         responsive: [
+        //             {
+        //             breakpoint: 940,
+        //             settings: {
+        //                 slidesToShow: 1.8,
+        //                 slidesToScroll: 1,
+        //             }
+        //             },
+        //             {
+        //             breakpoint: 480,
+        //             settings: {
+        //                 slidesToShow: 1.8,
+        //                 slidesToScroll: 1,
+        //             }
+        //             },
+        //             {
+        //             breakpoint: 375,
+        //             settings: {
+        //                 slidesToShow: 1.8,
+        //                 slidesToScroll: 1,
+        //             }
+        //             }
+        //         ]
+        //     });
+        // });
     </script>
     
 </body>
