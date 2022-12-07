@@ -48,6 +48,12 @@
 .featured .slick-container .slick-t .slick-prev {left: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
 .featured .slick-container .slick-t .slick-next {right: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
 
+.genting-live .slick-container {margin-top: 30px;}
+.genting-live .slick-container .slick-casino {position: relative; overflow: hidden;}
+.genting-live .slick-container .slick-casino img {width: 100%;}
+.genting-live .slick-container .slick-casino .slick-prev {left: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
+.genting-live .slick-container .slick-casino .slick-next {right: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
+
 
 .genting-live .content {max-width: 1890px;}
 .genting-live .content h3 {font-size: 36px;margin: 30px 0 5px 0; font-weight: 400;}
