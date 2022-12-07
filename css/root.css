@@ -66,11 +66,6 @@ i:hover {
     opacity: unset !important;
 }
 
-/* .slick-next.slick-arrow {display: none !important;}
-.slick-next.slick-arrow.slick-disabled {display: inline-block !important; right: 16px !important} */
-
-/* .slick-slide.slick-active:last-child > img {padding-right: 0 !important;} */
-
 .slick-slide {
     margin: 0 5px;
 }
@@ -79,7 +74,6 @@ i:hover {
     margin: 0 -5px;
 }
 .slick-slide:last-child {margin-right: 0;}
-/* .slick-slide.slick-active:last-child > img {padding-right: 0 !important;} */
 
 .slick-disabled {
     opacity: 0;
