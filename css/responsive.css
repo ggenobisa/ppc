@@ -58,3 +58,11 @@
     .genting-casino .genting-container img {width: 50%; margin-bottom: 20px;}
     .genting-casino .genting-container p {margin-top: 0;}
 }/****940px LANDSCAPE****/
+
+@media screen and (max-width:375px) {
+    .hero .logo {top: 10%;}
+    .hero .logo img {width: 200px;}
+    .hero .offer-text {bottom: 25%;}
+    
+    .howtoplay .howtoplay-steps .col {width: 330px;}
+}/****375px****/
