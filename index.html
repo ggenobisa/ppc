@@ -202,7 +202,7 @@
             <hr>
 
             <div class="slick-container">
-                <div class="slick-t">
+                <div class="slick-tt">
                     <div><img src="./img/most-played-games/bonanza.jpg" alt="Big Bass Bonanza"></div>
                     <div><img src="./img/most-played-games/book-of-dead.jpg" alt="Book of Dead"></div>
                     <div><img src="./img/most-played-games/champions-of-mithrune.jpg" alt="Champions of Mithrune"></div>
@@ -291,6 +291,44 @@
                         slidesToShow: 1.8,
                         slidesToScroll: 1,
                     }
+                    },
+                    {
+                    breakpoint: 375,
+                    settings: {
+                        slidesToShow: 1.8,
+                        slidesToScroll: 1,
+                    }
+                    }
+                ]
+            });
+
+            $('.slick-tt').slick({
+                slidesToShow: 5.5,
+                slidesToScroll: 6,
+                speed: 300,
+                infinite: false,
+                arrows: true,
+                responsive: [
+                    {
+                    breakpoint: 940,
+                    settings: {
+                        slidesToShow: 1.8,
+                        slidesToScroll: 1,
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1.8,
+                        slidesToScroll: 1,
+                    }
+                    },
+                    {
+                    breakpoint: 375,
+                    settings: {
+                        slidesToShow: 1.8,
+                        slidesToScroll: 1,
+                    }
                     }
                 ]
             });
@@ -311,6 +349,13 @@
                     },
                     {
                     breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1.5,
+                        slidesToScroll: 1,
+                    }
+                    },
+                    {
+                    breakpoint: 375,
                     settings: {
                         slidesToShow: 1.5,
                         slidesToScroll: 1,
