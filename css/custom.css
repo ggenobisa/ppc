@@ -68,10 +68,10 @@
 .most-played-games .content h3 {font-size: 36px;margin: 30px 0 10px 0; font-weight: 400;}
 
 .most-played-games .slick-container {margin-top: 30px;}
-.most-played-games .slick-container .slick-t {position: relative; overflow: hidden;}
-.most-played-games .slick-container .slick-t img {width: 100%;}
-.most-played-games .slick-container .slick-t .slick-prev {left: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
-.most-played-games .slick-container .slick-t .slick-next {right: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
+.most-played-games .slick-container .slick-tt {position: relative; overflow: hidden;}
+.most-played-games .slick-container .slick-tt img {width: 100%;}
+.most-played-games .slick-container .slick-tt .slick-prev {left: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
+.most-played-games .slick-container .slick-tt .slick-next {right: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
 
 .genting-casino .content {max-width: 1600px;}
 .genting-casino .content h2 {font-weight: 900; font-size: 48px;margin-top: 50px;margin-bottom: 60px;}
