@@ -32,7 +32,7 @@
     /* .featured .slick-container .slick-t img {width: 209px;} */
 
     .genting-live .slick-container .slick-casino {position: relative; overflow: hidden;}
-    .genting-live .slick-container .slick-casino img {width: 250px;}
+    .genting-live .slick-container .slick-casino img {width: 100%;}
     .genting-live .slick-container .slick-casino .slick-prev {left: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
     .genting-live .slick-container .slick-casino .slick-next {right: 0;z-index: 1;background-color: var(--primary);height: 100%;top: 0;transform: unset;width: 30px;opacity: 0.7;}
     .genting-live .content-two {padding: 1rem;}
