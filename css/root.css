@@ -7,6 +7,7 @@
     --border: #E30813;
     --tnc: #E0E7EA;
     --divider: #607D8B;
+    --gamble: #1E2A2F;
 }
 
 html {
@@ -70,11 +71,17 @@ i:hover {
 
 /* .slick-slide.slick-active:last-child > img {padding-right: 0 !important;} */
 
-.slick-slide {margin: 0 0.5px !important;}
-.slick-slide.slick-active:last-child > img {padding-right: 0 !important;}
+.slick-slide {
+    margin: 0 5px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -5px;
+}
+.slick-slide:last-child {margin-right: 0;}
+/* .slick-slide.slick-active:last-child > img {padding-right: 0 !important;} */
 
 .slick-disabled {
-    display: none;
     opacity: 0;
     pointer-events:none;
 }
