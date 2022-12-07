@@ -29,7 +29,7 @@
 
     .featured .content h2 {font-size: 36px;}
     .featured .content h3 {font-size: 20px;}
-    .featured .slick-container .slick-t img {width: 209px;}
+    /* .featured .slick-container .slick-t img {width: 209px;} */
 
     .genting-live .slick-container .slick-casino {position: relative; overflow: hidden;}
     .genting-live .slick-container .slick-casino img {width: 250px;}
@@ -38,7 +38,7 @@
     .genting-live .content-two {padding: 1rem;}
 
     .most-played-games .content h3 {font-size: 20px;}
-    .most-played-games .slick-container .slick-t img {width: 209px;}
+    /* .most-played-games .slick-container .slick-t img {width: 209px;} */
 
     .genting-live .content h3 {font-size: 20px;}
 
@@ -61,10 +61,10 @@
     .hero .offer-text {top: 30%;}
     .hero .offer-text button {margin-top: 20px;}
 
-    .featured .slick-container .slick-t img,
-    .most-played-games .slick-container .slick-t img {width: 475px;}
+    /* .featured .slick-container .slick-t img,
+    .most-played-games .slick-container .slick-t img {width: 475px;} */
 
-    .genting-live .slick-container .slick-casino img {width: 570px;}
+    /* .genting-live .slick-container .slick-casino img {width: 570px;} */
 
     .genting-casino .genting-container {grid-template-columns: 25% 25% 25% 25%;}
     .genting-casino .genting-container img {width: 50%;}
