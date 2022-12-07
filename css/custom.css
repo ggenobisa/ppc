@@ -12,7 +12,7 @@
 .hero .content .hero-btn .beam-content {display: grid;grid-template-columns: 90% 10%;background-color: var(--tnc);align-items: center;}
 .hero .content .hero-btn .beam-content .col {padding: 0.5rem 1rem;}
 .hero .content .hero-btn .beam-content .col-2 {text-align: right;}
-.hero .content .hero-btn .beam-content p {font-size: 10px;text-align: left;}
+.hero .content .hero-btn .beam-content p {font-size: 12px;text-align: left;}
 .hero .content .hero-btn .beam-content .col img {width: 100%;}
 
 
