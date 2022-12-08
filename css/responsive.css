@@ -62,6 +62,10 @@
     .genting-casino .genting-container p {margin-top: 0; padding: 0 1rem; font-size: 20px;}
 }/****940px LANDSCAPE****/
 
+@media screen and (max-width:390px) {
+    .hero .offer-text {bottom: 22%;}
+}
+
 @media screen and (max-width:375px) {
     .hero .logo {top: 10%;}
     .hero .logo img {width: 200px;}
