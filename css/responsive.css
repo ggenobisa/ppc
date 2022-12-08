@@ -24,7 +24,7 @@
 
     .howtoplay .content h2 {font-size: 32px;}
     .howtoplay .howtoplay-steps {grid-template-columns: 1fr;margin-bottom: 20px;}
-    .howtoplay .howtoplay-steps .col {justify-content: flex-start;padding: 0 1rem;column-gap: 20px; margin-bottom: 25px;}
+    .howtoplay .howtoplay-steps .col {width: 100%; justify-content: flex-start;padding: 0 1rem;column-gap: 20px; margin-bottom: 25px;}
 
     .featured .content h2 {font-size: 36px;}
     .featured .content h3 {font-size: 20px;}
