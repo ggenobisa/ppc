@@ -1,5 +1,5 @@
 .hide-desktop {display: none;}
-
+/**helllo**/
 /*--------------RESPONSIVE CSS ----------------*/
 @media screen and (max-width:1366px) {
     .hero .offer-text h1 {font-size: 70px;}
