@@ -56,9 +56,9 @@
 
     .marquee .track {padding: 0.7rem 0 0 0;}
 
-    .howtoplay .howtoplay-steps .col {justify-content: center; width: 413px;}
+    .howtoplay .howtoplay-steps .col {width: 413px; padding: 0 3rem;}
 
-    .genting-casino .genting-container {grid-template-columns: 25% 25% 25% 25%;}
+    .genting-casino .genting-container {grid-template-columns: 1fr 1fr;}
     .genting-casino .genting-container .col {justify-self: center;}
     .genting-casino .genting-container img {width: auto; margin-bottom: 20px;}
     .genting-casino .genting-container p {margin-top: 0; padding: 0 1rem; font-size: 20px;}
